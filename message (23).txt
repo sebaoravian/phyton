@@ -1,0 +1,244 @@
+{
+    "status": 1,
+    "single": {
+        "user_date": "2025-02-27T09:24:33.108Z",
+        "data_version": 1740636056383,
+        "date": "2025-02-27T15:24:33.348Z",
+        "campaings": [
+            {
+                "_id": "661586cd7eef3d97cdb9c5dc",
+                "name": "2024",
+                "code": "AB-0001",
+                "prefix": "C1",
+                "image": "http://",
+                "date_init": "2024-04-09T00:00:00.000Z",
+                "date_finish": "2025-08-07T00:00:00.000Z",
+                "date_moderation_init": "2024-05-15T00:00:00.000Z",
+                "date_moderation_finish": "2024-05-21T00:00:00.000Z",
+                "moderation": false,
+                "steps": [
+                    {
+                        "name": "Form Matutino para desbloquear tiendas",
+                        "code": "form-mat",
+                        "prefix": "V0",
+                        "image": "http://hola",
+                        "date_init": "2024-04-09T00:00:00.000Z",
+                        "date_finish": "2025-08-07T00:00:00.000Z",
+                        "type": "blocked_route",
+                        "forms": [
+                            {
+                                "_id": "64d959f6892079f87e3cbf21",
+                                "status": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Objetivo de tiendas relevadas y desbloqueo de form vesp",
+                        "code": "obj_pos",
+                        "prefix": "V1",
+                        "image": "http://hola",
+                        "date_init": "2024-04-09T00:00:00.000Z",
+                        "date_finish": "2025-08-07T00:00:00.000Z",
+                        "type": "objective",
+                        "checkins": 10,
+                        "forms": [
+                            {
+                                "_id": "64d95a13892079f87e3cbf22",
+                                "status": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ventana 03",
+                        "code": "form-vesp",
+                        "prefix": "V1",
+                        "image": "http://hola",
+                        "date_init": "2024-04-09T00:00:00.000Z",
+                        "date_finish": "2025-08-07T00:00:00.000Z",
+                        "type": "objective_forms",
+                        "forms_objetive": [
+                            {
+                                "form_id": 23424,
+                                "count": 10
+                            }
+                        ],
+                        "forms": [
+                            {
+                                "_id": "64d959f6892079f87e3cbf21",
+                                "status": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Objetivo Cumplido",
+                        "code": "objective_complete",
+                        "prefix": "V8",
+                        "image": "",
+                        "date_init": "2024-04-09T00:00:00.000Z",
+                        "date_finish": "2025-08-07T00:00:00.000Z",
+                        "type": "objective_complete",
+                        "checkins": null,
+                        "forms": [
+                            {
+                                "_id": "63861310e21cca00087a5023",
+                                "status": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stops_by 4",
+                        "code": "Stops_by",
+                        "prefix": "V7",
+                        "image": "",
+                        "date_init": "2024-04-09T00:00:00.000Z",
+                        "date_finish": "2025-08-07T00:00:00.000Z",
+                        "type": "stops_by",
+                        "checkins": "4",
+                        "forms": [
+                            {
+                                "_id": "63861310e21cca00087a5023",
+                                "status": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stops_by 9",
+                        "code": "Stops_by",
+                        "prefix": "V7",
+                        "image": "",
+                        "date_init": "2024-04-09T00:00:00.000Z",
+                        "date_finish": "2025-08-07T00:00:00.000Z",
+                        "type": "stops_by",
+                        "checkins": "9",
+                        "forms": [
+                            {
+                                "_id": "63861310e21cca00087a5023",
+                                "status": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stops_by 14",
+                        "code": "Stops_by",
+                        "prefix": "V7",
+                        "image": "",
+                        "date_init": "2024-04-09T00:00:00.000Z",
+                        "date_finish": "2025-08-07T00:00:00.000Z",
+                        "type": "stops_by",
+                        "checkins": "14",
+                        "forms": [
+                            {
+                                "_id": "63861310e21cca00087a5023",
+                                "status": 3
+                            }
+                        ]
+                    }
+                ],
+                "total_progres": 292,
+                "values": [
+                    {
+                        "label": "Objetivos en revisión",
+                        "value": 19,
+                        "color_hex": "#FFC42B"
+                    },
+                    {
+                        "label": "Objetivos pendientes",
+                        "value": 273,
+                        "color_hex": "#434353"
+                    }
+                ],
+                "pos": [],
+                "schedule_free": false,
+                "schedules": [
+                    {
+                        "_id": "67bc0ba924db02872196ed48",
+                        "date_finish": "2025-02-27T23:59:59.999Z",
+                        "date_init": "2025-02-27T00:00:00.000Z",
+                        "progress_diary": false,
+                        "activities": [],
+                        "vacation": false,
+                        "others_activities": [],
+                        "additional": {
+                            "route": "EEXIPT_103",
+                            "stop_by": [
+                                "4",
+                                "9",
+                                "14"
+                            ],
+                            "objective": [
+                                {
+                                    "objetive": "15",
+                                    "form": [
+                                        "63861310e21cca00087a5023"
+                                    ]
+                                }
+                            ]
+                        },
+                        "form_init": {
+                            "_id": "64d959f6892079f87e3cbf21",
+                            "name": "Matutino"
+                        },
+                        "form_finish": {
+                            "_id": "64d95a13892079f87e3cbf22",
+                            "name": "Vespertino"
+                        },
+                        "activities_advances": null,
+                        "others_activities_advances": null,
+                        "forms_additionals": [],
+                        "forms_incidence": null,
+                        "reports": {},
+                        "data_version": 1740636056383,
+                        "history_forms": []
+                    },
+                    {
+                        "_id": "67bc0ba724db02872196ec9d",
+                        "date_finish": "2025-02-24T23:59:59.999Z",
+                        "date_init": "2025-02-24T00:00:00.000Z",
+                        "progress_diary": false,
+                        "activities": [],
+                        "vacation": false,
+                        "others_activities": [],
+                        "additional": {
+                            "route": "EEXIPT_104",
+                            "stop_by": [
+                                "4",
+                                "9",
+                                "14"
+                            ],
+                            "objective": [
+                                {
+                                    "objetive": "15",
+                                    "form": [
+                                        "63861310e21cca00087a5023"
+                                    ]
+                                }
+                            ]
+                        },
+                        "form_init": {
+                            "_id": "64d959f6892079f87e3cbf21",
+                            "name": "Matutino"
+                        },
+                        "form_finish": {
+                            "_id": "64d95a13892079f87e3cbf22",
+                            "name": "Vespertino"
+                        },
+                        "activities_advances": null,
+                        "others_activities_advances": null,
+                        "forms_additionals": [],
+                        "forms_incidence": null,
+                        "reports": {},
+                        "data_version": 1740636056383,
+                        "history_forms": []
+                    }
+                ],
+                "status": 1,
+                "_v": 0
+            }
+        ],
+        "generator": {
+            "active": false,
+            "is_moderator": false
+        },
+        "create_pos": {}
+    }
+}
